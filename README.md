@@ -10,7 +10,7 @@ stateDiagram-v2
     WaitingVoice --> [*]: /cancel
     Result --> [*]: Предложение /start
 ```
-speech-analyst-bot/
+speech-analyst-bot
 ├── .env                    # Файл окружения (токены)
 ├── bot.py                  # Основной скрипт бота
 ├── audio_processor.py      # Обработка аудио
